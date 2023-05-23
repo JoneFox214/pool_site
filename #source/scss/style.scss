@@ -1,0 +1,189 @@
+@import 'nullstyle.scss';
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Raleway:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #162831;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+
+.wrapper{
+    display: flex;
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.content{
+}
+
+.header {
+    display: grid;
+    grid-template: 1fr / auto 1fr auto;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0px 50px 0px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.header__logo {
+}
+.logo {
+}
+.header__pages {
+}
+
+.header__pages a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 25px;
+}
+
+
+.pages__link {
+}
+
+.header__button a{
+    display: inline-block;
+    font-size: 13px;
+    padding: 10px;
+    width: 148px;
+    border-radius: 5px;
+    background: #018ABE;
+    color: white;
+}
+
+//---------------------------------------------------------//
+
+.main {
+
+}
+.main__welcome {
+    padding: 210px 0px 0px 0px;
+    background-image: url('../img/water.png');
+    width: 1296px;
+    height: 600px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'El Messiri', sans-serif;
+}
+.welcome__title {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 0px 0px 20px 0px;
+}
+
+.welcome__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.main__sessions {
+    padding: 150px 0px 0px 0px;
+}
+
+.main__sessions_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.main__session {
+}
+.session__big__title {
+}
+.session__title {
+}
+.main__reviews {
+}
+.main__review__1 {
+}
+.review__name {
+}
+.review__description {
+}
+.main__review__2 {
+}
+.main__review__3 {
+}
+.main__about_us {
+}
+.about_us__title {
+}
+.about_us__card_left {
+}
+.about_us__name {
+}
+.about_us__description {
+}
+.about_us__img {
+}
+.about_us__card_right {
+}
+.main__prices {
+}
+.main__prices__title {
+}
+.main__prices__price_1 {
+}
+.price__title {
+}
+.price {
+}
+.main__prices__price_2 {
+}
+.main__prices__price_3 {
+}
+.main__prices__price_4 {
+}
+.main__prices__price_5 {
+}
+.main__prices__img {
+}
+.giftcard {
+}
+.main__prices__img__description {
+}
+.main__cards {
+}
+.card__map {
+}
+.card__location {
+}
+.card_location_1 {
+}
+.card_location__title {
+}
+.card__location__coordinates {
+}
+.card__location__metro {
+}
+.card__location__description {
+}
+.card__location__button {
+}
+.card__location__enroll {
+}
+.card__enroll {
+}
+.card_location_2 {
+}
+
+//---------------------------------------------------------//
+
+.footer{
+}

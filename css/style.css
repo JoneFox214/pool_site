@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Raleway:wght@300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+inpit, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+buttom::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/* ------------- */
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #162831;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+  -ms-grid-columns: auto 1fr auto;
+      grid-template: 1fr/auto 1fr auto;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 35px 0px 50px 0px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.header__pages a {
+  text-decoration: none;
+  color: white;
+  padding: 0px 25px;
+}
+
+.header__button a {
+  display: inline-block;
+  font-size: 13px;
+  padding: 10px;
+  width: 148px;
+  border-radius: 5px;
+  background: #018ABE;
+  color: white;
+}
+
+.main__welcome {
+  padding: 210px 0px 0px 0px;
+  background-image: url("../img/water.png");
+  width: 1296px;
+  height: 600px;
+  font-size: 64px;
+  font-weight: 700;
+  font-family: "El Messiri", sans-serif;
+}
+
+.welcome__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 24px;
+  font-weight: 700;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  padding: 0px 0px 20px 0px;
+}
+
+.welcome__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+}
+
+.main__sessions {
+  padding: 150px 0px 0px 0px;
+}
+
+.main__sessions_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 42px;
+  font-weight: 700;
+  font-family: "El Messiri", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
